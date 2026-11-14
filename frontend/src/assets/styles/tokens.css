@@ -1,0 +1,17 @@
+:root {
+  --bg-page: #f5f6f8;
+  --bg-panel: #ffffff;
+  --border: #e6e8ee;
+  --text: #1f2430;
+  --text-muted: #8b93a7;
+  --primary: #3b82f6;
+  --primary-soft: #dcebff;
+  --shift-bg: #e8e7ff;
+  --shift-text: #3a3a8a;
+  --coverage-ok: #dcebff;
+  --coverage-empty: #ffe4e6;
+  --radius-chip: 16px;
+  --sidebar-w: 200px;
+  --templates-w: 335px;
+  --font: Inter, "SF Pro Text", system-ui, sans-serif;
+}
