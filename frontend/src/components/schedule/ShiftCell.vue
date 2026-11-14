@@ -20,9 +20,8 @@
         class="chip"
         draggable="true"
         @dragstart.stop="onDragStart"
-        @click.stop
       >
-        <span class="time">
+        <span v-if="!compact" class="time">
           {{ shift.start_time.slice(0, 5) }}
         </span>
         <span class="hours">{{ shift.duration_hours }}ч</span>
